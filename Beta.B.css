@@ -1,0 +1,156 @@
+body {margin:0;white-space:nowrap; background: #ffdfd4;}/* ffdfd4 */
+/* color #29323A  versión 7.0*/
+@media screen and (max-width: 800px) and (min-width: 200px){
+/* ----------VARIABLES-------------- */
+.SECCIONES { overflow: scroll;padding: 10px;max-width: 400px;
+						min-width: 300px;}
+html {scroll-behavior: smooth;}
+/* ----------VARIABLES-------------- */
+
+/* ---------------CABECERA---------------- */
+.header {display: none;padding: 20px; background: #7fd6ff;}
+.BOTÓN_MOVIL {display: block;background: red;padding: 10px;}
+.BTN {border-radius: 30px;}
+.BOTÓN_PC {display: none;}
+/* ---------------CABECERA---------------- */
+
+/* -------------- TEXTO DE LAS CARTAS ------------- */
+#Fl {color: #D0D0D0;} /* TÍTULO flipa */
+#Sl {color: #000;}/* SUBTÍTULO */
+#Fll{color: #8080E0;}/* TÍTULO creat */
+#Sll{color: #905060;}/* SUBTÍTULO */
+#Flll {color: #CCCCCC;} /* TÍTULO flipa */
+#Slll {color: #fff;}/* SUBTÍTULO */color: ;
+.TEXT_COMP {max-width: 100%;max-height: 30px;overflow: auto;
+					 min-width: 100%;min-height: 40px;}
+.TEXT_COMP_EDIC {justify-content: center;}
+.Ocultool {display: none;}
+/* -------------- TEXTO DE LAS CARTAS ------------- */
+
+
+/* -------------- TEXTO DE LAS CARTAS ------------- */
+#Un {background: #90C0B0;color: #905060;
+	border-bottom-color: #90C0B0;border-left-color: #90C0B0;
+	border-right-color: #90C0B0;border-top-color: #90C0B0;
+	box-sizing: border-box;
+	border-radius: 5px;color: while;}/* boton Creative */
+
+.Unn {background: #ffffff;color: black;
+	border-bottom-color: #ffffff;border-left-color: #ffffff;
+	border-right-color: #ffffff;border-top-color: #ffffff;
+	box-sizing: border-box;
+	border-radius: 5px;color: while;}/*Flipaclip_En_Español*/
+/* ----------------CARTAS--------------- */
+
+#FONDO_CARTA {background: #aacaff;overflow: hidden;
+						display: grid;box-sizing: border-box;
+						justify-content: space-between;
+						text-align: center;
+						justify-content: center;
+						padding: 20px;
+						}
+						
+#OC_CARTA {/* carta de Flipaclip */
+		 background: url('Fondo_OC.png')round;
+		 overflow: hidden;
+		 border-radius: 40px;
+		 box-sizing: border-box;margin: 10px;
+		 
+		 padding-top: 50px;padding-bottom: 40px;
+		 padding-left: 30px;padding-right: 30px;
+		 
+		 
+		 justify-content: center;text-align: center;
+		 max-width: 430px;max-height: 650px;
+		 min-width: 300px;min-height: 450px;}/* NUEVO */
+
+#FLIPA-CARTA {/* carta de Flipaclip */
+		 background: url('esl.jpg')round;overflow: hidden;
+		 border-radius: 40px;
+		 text-align: center;box-sizing: border-box;margin: 10px;
+		 padding-top: 50px;padding-left: 30px;
+		 padding-right: 30px;padding-bottom: 40px;
+		 justify-content: center;
+		 max-width: 430px;max-height: 750px;
+		 min-width: 300px;min-height: 450px;}/* NUEVO */
+
+#CREAT-CARTA {/* carta de Creative */
+		 background: url('cra.jpg')round;overflow: hidden;
+		 border-radius: 40px;box-sizing: border-box;margin: 10px;
+		 text-align: center;justify-content: center;
+		 padding-top: 50px;padding-bottom: 40px;
+		 padding-left: 30px;padding-right: 30px;
+		 max-width: 430px;max-height: 650px;
+		 min-width: 300px;min-height: 450px;}/* NUEVO */
+		 
+		 
+.Central {text-align: center;}
+.Text_Text_Text {width: 100%;overflow: hidden;white-space: normal;}
+.Text_Text_Text::selection {color: black;}
+
+
+/*  */
+.btn_completo {display: flex;justify-content: space-around;}
+
+.I_STAFF {width: 300px;}
+#historia_Q {display: block;}
+#ESPERA {display: none;}
+#ESPERAA {display: none;}
+#ESPERAAA{display: none;}
+
+#soy_u:checked + #ESPERA {display: block;}
+#soy_d:checked + #ESPERAA {display: block;}
+#soy_t:checked + #ESPERAAA {display: block;}
+
+#soy_uu:checked + #ESPERA {display: block;}
+#soy_dd:checked + #ESPERAA {display: block;}
+#soy_tt:checked + #ESPERAAA {display: block;}
+
+#soy_uuu:checked + #ESPERA {display: block;}
+#soy_ddd:checked + #ESPERAA {display: block;}
+#soy_ttt:checked + #ESPERAAA {display: block;}
+
+/*  */
+		 
+		 
+		 
+/* -----+-+OCULTA------------ */
+#Oculto_Uno {display: none;}
+#Oculto_Dos {display: none;}
+#Oculto_Tres {display: none;}
+/* -----+-+OCULTA------------ */
+
+/* ------------MOSTRAR------------- */
+#Ocultar_A:checked + #Oculto_Uno  {display: block;}
+#Ocultar_B:checked + #Oculto_Dos {display: block;}
+#Ocultar_C:checked + #Oculto_Tres {display: block;}
+/* ------------MOSTRAR------------- */
+
+/* ----------------CARTAS DE COMUNIDAD--------------- */
+#Imag {max-width: 170px;align-self: center;border-radius: 20%;}
+#imag {max-width: 170px;align-self: center;}
+#Imagg{max-width: 200px;align-self: center;}
+.Cuarto {padding-bottom: 15px;padding-top: 20px;}/*botón*/
+/* ----------------CARTAS DE COMUNIDAD--------------- */
+
+/* ------pc------- */
+.SOLO_PARA_PC {display: none;}
+/* ------pc------- */
+.LISTADO_UNO,li,a {list-style: none;}
+input {display: none;}
+#BANEL { text-align: center; margin: 10px;} 
+.limitará {width: 100%;overflow: hidden;white-space: normal;}
+/* ----------------CARTAS--------------- */
+
+/* ------------NAVEGACION FLIPACLIP---------------- */
+
+
+/* ------------NAVEGACION FLIPACLIP---------------- */
+
+/* ---------------- PIE DE PÁG ------------------- */
+footer {background: #162415;padding: 1px;font-size: 12px;
+			 text-align: center;box-sizing: border-box; width: 100%;}
+#As {color: white;}
+a {color: #15cbff; text-decoration: none;}
+/* ---------------- PIE DE PÁG ------------------- */
+}
